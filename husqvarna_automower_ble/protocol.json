@@ -320,8 +320,9 @@
       "unknown1": "uint16",
       "voltage": "uint16",
       "current": "uint16",
-      "unknown2": "uint32"
+      "battery_capacity": "uint16",
+      "battery_energy": "uint16"
     },
-    "description": "Battery telemetry blocking 10 bytes on NERA."
+    "description": "Battery telemetry blocking 10 bytes."
   }
 }
