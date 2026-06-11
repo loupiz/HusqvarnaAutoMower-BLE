@@ -306,5 +306,11 @@
       "code": "uint32",
       "severity": "uint8"
     }
+  },
+  "GetBatteryVoltage": {
+    "major": 4106,
+    "minor": 1,
+    "responseType":  "uint16",
+    "description": "Battery voltage raw value."
   }
 }
