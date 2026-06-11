@@ -316,9 +316,7 @@
   "GetBatteryCurrent": {
     "major": 4106,
     "minor": 11,
-    "responseType": {
-      "current": "int16"
-    },
+    "responseType": "int16",
     "description": "Battery current."
   }
 }
