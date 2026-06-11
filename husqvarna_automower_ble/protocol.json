@@ -312,5 +312,13 @@
     "minor": 1,
     "responseType":  "uint16",
     "description": "Battery voltage raw value."
+  },
+  "GetBatteryCurrent": {
+    "major": 4106,
+    "minor": 11,
+    "responseType": {
+      "current": "int16"
+    },
+    "description": "Battery current on NERA."
   }
 }
