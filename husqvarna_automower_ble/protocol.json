@@ -316,7 +316,12 @@
   "GetBatteryCurrent": {
     "major": 4106,
     "minor": 11,
-    "responseType": "int16",
-    "description": "Battery current."
+    "responseType": {
+      "unknown1": "uint16",
+      "voltage": "uint16",
+      "current": "uint16",
+      "unknown2": "uint32"
+    },
+    "description": "Battery telemetry blocking 10 bytes on NERA."
   }
 }
