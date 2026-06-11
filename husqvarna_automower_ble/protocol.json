@@ -319,6 +319,6 @@
     "responseType": {
       "current": "int16"
     },
-    "description": "Battery current on NERA."
+    "description": "Battery current."
   }
 }
