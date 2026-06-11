@@ -317,11 +317,11 @@
     "major": 4106,
     "minor": 11,
     "responseType": {
-      "unknown1": "uint16",
+      "battery_level_sync": "uint16",
       "voltage": "uint16",
       "current": "uint16",
-      "battery_capacity": "uint16",
-      "battery_energy": "uint16"
+      "battery_temperature": "uint16",
+      "unknow1": "uint16"
     },
     "description": "Battery telemetry blocking 10 bytes."
   }
