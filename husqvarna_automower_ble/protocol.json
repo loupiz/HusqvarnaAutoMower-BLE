@@ -325,10 +325,16 @@
     },
     "description": "Battery telemetry blocking 10 bytes."
   },
-  "GetBatteryRemainingCapacity": {
+  "GetBatteryCapacityDeficit": {
     "major": 4106,
     "minor": 22,
     "responseType": "uint32",
-    "description": "Remaining capacity of the battery."
+    "description": "Capacity deficit in mAh remaining to reach full charge."
+  },
+  "GetBatteryCapacity": {
+    "major": 4106,
+    "minor": 23,
+    "responseType": "uint32",
+    "description": "Battery total capacity."
   }
 }
