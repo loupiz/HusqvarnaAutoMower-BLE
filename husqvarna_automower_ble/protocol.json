@@ -324,5 +324,11 @@
       "unknow1": "uint16"
     },
     "description": "Battery telemetry blocking 10 bytes."
+  },
+  "GetBatteryCapacity": {
+    "major": 4106,
+    "minor": 8,
+    "responseType": "uint16",
+    "description": "Raw capacity register from battery gas gauge."
   }
 }
