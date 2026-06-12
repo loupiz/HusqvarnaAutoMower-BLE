@@ -327,7 +327,7 @@
   },
   "GetBatteryCapacity": {
     "major": 4106,
-    "minor": 8,
+    "minor": 22,
     "responseType": "uint16",
     "description": "Raw capacity register from battery gas gauge."
   }
