@@ -333,8 +333,8 @@
   },
   "GetBatteryCapacity": {
     "major": 4106,
-    "minor": 23,
-    "responseType": "uint32",
+    "minor": 24,
+    "responseType": "uint8",
     "description": "Battery total capacity."
   }
 }
